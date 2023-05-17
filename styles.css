@@ -1,0 +1,90 @@
+/* font-family: 'Bungee Shade', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto Mono', monospace; */
+
+a {
+    color: #6096B4;
+    text-decoration: none;
+    border-color: #6096B4;
+}
+
+body {
+    background-color: #E4DCCF;
+    color: #002B5B;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    /* text-shadow: 0dvb; */
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.results h1 {
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 0dvb;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+img {
+    width:75px;
+}
+
+p {
+    font-size:2rem;
+}
+
+.bg-dark {
+    background-color: #002B5B!important;
+}
+.btn-primary,.btn-primary:focus {
+    background-color: #002B5B;
+    border-color: #002B5B;
+    width: 100px;
+}
+
+.btn-primary:hover {
+    background-color: #EA5455;
+    border-color: #002B5B;
+}
+
+.copyright {
+    color: #F9F5EB;
+    font-size: 0.7rem;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.dice {
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: #EA5455; 
+    display: grid;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+    gap: 1rem;
+    padding:1rem;
+}
+
+.footer {
+    background-color: #002B5B;
+}    
+
+.footer-link {
+    color: #005cc5;
+}    
+
+.footer-link:hover {
+    color: #F9F5EB;
+}    
+.player1,.player2 {
+    min-width: 250px;
+}
+
+.winner {
+    font-size: 5rem;
+    color: #EA5455;
+}
